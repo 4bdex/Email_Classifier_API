@@ -6,8 +6,8 @@ namespace Email_Classifier_API_v1
 {
     public partial class MLModel
     {
-        public const string RetrainFilePath = @"D:\Abdex\Desktop\sentiment labelled sentences\yelp_labelled.txt";
-        public const char RetrainSeparatorChar = '	';
+        public const string RetrainFilePath = @"D:\Abdex\Desktop\data.csv";
+        public const char RetrainSeparatorChar = ',';
         public const bool RetrainHasHeader = true;
 
      

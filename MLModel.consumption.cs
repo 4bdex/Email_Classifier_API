@@ -4,6 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
+
 namespace Email_Classifier_API_v1
 {
     public partial class MLModel
@@ -47,7 +49,7 @@ namespace Email_Classifier_API_v1
 
         #endregion
 
-        public static string MLNetModelPath = Path.GetFullPath("Model\\EmailClassifierModel.mlnet");
+        public static string MLNetModelPath = Path.GetFullPath(Path.Combine("Model", "EmailClassifierModel.mlnet"));
 
         public static readonly Lazy<PredictionEngine<ModelInput, ModelOutput>> PredictEngine = new Lazy<PredictionEngine<ModelInput, ModelOutput>>(() => CreatePredictEngine(), true);
 
