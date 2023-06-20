@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Email_Classifier_API_v1", "Email_Classifier_API_v1.csproj", "{18D879FB-9061-4FE4-84DC-40C502763E05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18D879FB-9061-4FE4-84DC-40C502763E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D879FB-9061-4FE4-84DC-40C502763E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D879FB-9061-4FE4-84DC-40C502763E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D879FB-9061-4FE4-84DC-40C502763E05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00EA813D-148E-41A4-99D5-4E78A3695597}
+	EndGlobalSection
+EndGlobal
